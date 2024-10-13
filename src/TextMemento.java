@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class TextMemento {
+class TextMemento {
+    private String text;
+
+    public TextMemento(String text) {
+        this.text = text;
+    }
+
+    public String getText() {
+        return text;
+    }
 }
